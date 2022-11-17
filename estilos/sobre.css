@@ -1,0 +1,87 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+body{
+    font-family: "Noto Sans";
+    background-color:black;
+    color: white;
+}
+h1{text-align: center;}
+
+
+#componentes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: all 3s ease;
+   
+    
+}
+.bloco{
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: solid 2px greenyellow;
+    
+
+    overflow: hidden;
+    background-color: #201b2c;
+    
+
+    box-shadow: 2px 2px 7px black;
+    height: 550px;
+    width:  400px;
+    margin: 10px;
+    transition: all 3s ease;
+    
+    
+}
+
+.coor{
+    border: solid 2px rgb(62, 62, 241);
+}
+
+.bloco  img{
+    border-radius: 50%;
+    border:solid 5px black;
+    height: 150px;
+    width: 150px;
+   
+   
+    
+}
+p{
+    justify-content: center;
+    margin: 10px;
+    font-size: 1.3em;
+}
+.mario{
+    height: 400px;
+    width: 97vw;
+}
+/* Typical Device Breakpoints
+-----------------------------
+Pequenas Telas:
+Celular: 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes Telas: acima de 1200px
+*/
+
+@media only screen and (max-width: 1291px){
+   
+    .bloco{
+        height: 600px;
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 991px){
+.bloco{
+    width: 250px;
+}
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto integrador</title>
+    <link rel="stylesheet" href="estilos/css_principal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!--Links dos ícones-->
+    
+</head>
+<body>
+    <header>
+        <section id="logo">
+            <a href="https://profept.ifrn.edu.br/"><img class="efeito_de_zoom" src="imagens/logo.png" alt="agenda de apresentações" ></a>
+            
+
+        </section>
+        <section id="icones">
+            <ul>
+                <li>
+                    <a href="login.html" class="efeito efeito_de_carregamento" rel="next">Login</a>
+                </li>
+                <li>
+                    <a href="sobre.html" class="efeito efeito_de_carregamento" rel="next">Sobre</a> 
+                </li>
+                <li>
+                    <a href="#" class="efeito efeito_de_carregamento" rel="next">contatos</a> 
+                </li>
+                <li>
+                    <input type="checkbox" name="mudar_tema" id="mudar_tema">
+                    <label for="mudar_tema">
+                        <i class="bi bi-sun"></i>
+                        <i class="bi bi-moon"></i>
+                    </label>
+                    
+                </i>
+            </ul>
+
+        </section>
+    </header>
+    <main>
+<h1>Agende sua apresentação</h1>
+<section id="opcoes">
+ 
+    <div class="left_part">
+        <img src="imagens/happy-student-animate.svg" class="estudantes_felizes" alt="">
+    </div>
+
+    <div class="right_part">
+       
+        <div class="card_opcoes">
+Agendar
+        <div class="textfield">
+            <input type="button" value="Apresentação">
+        </div>
+        <div class="textfield">
+            <input type="button" value="Seminário">
+        </div>
+        <div class="textfield">
+            <input type="button" value="TCC">
+        </div>
+
+        </div>
+        
+       
+       </div>
+
+    </div>    
+
+</section>
+<section id="carrossel">
+    <div id="slides">    
+        <input type="radio" name="slide" id="slide1" checked>
+        <input type="radio" name="slide" id="slide2">
+        <input type="radio" name="slide" id="slide3">
+        <input type="radio" name="slide" id="slide4">
+
+        <div class="slide">
+                <img src="imagens/thumb-1920-70155.png" alt="">
+        </div>
+        <div class="slide s1">
+                <img src="imagens/agenda_de_tcc.jpg" alt="">
+        </div>
+        <div class="slide">
+                <img src="imagens/mountains_evening_rocks-Nature_HD_Wallpaper_1366x768.jpg"  alt="">
+        </div>
+        <div class="slide">
+                <img src="imagens/10c06d36f8a6ad541539e236fd4f182a.jpg"  alt="">
+        </div>
+    
+        
+        
+    </div>
+
+        <div class="navegacao">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+        </div>
+</section>
+
+    </main>
+    <footer>
+            <p>
+                desenvolvido por <a href="#">Davi Gledson </a> e <a href="#">Pedro Ricardo</a>
+            </p>
+            
+    </footer>
+</body>
+</html>
+
+<script src="Javascript/javascript_principal.js"></script>
+<!--defer - o arquivo será carregado dps do documento - não funcionar no GitHub Pages-->
