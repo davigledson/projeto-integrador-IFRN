@@ -271,19 +271,19 @@ input[type='radio']{display: none;}
  .navegacao{
    
    display: flex;
-   position: absolute;
+   position: relative;
+   margin: auto;
+  
+   justify-content: center;
    
-   
-   bottom: -500px;
-   left: 50%;
-   transform: translate(-50%); 
+  
   
    
    
     
 
  }
- #carrossel .navegacao label{
+ .navegacao label{
     
     display: block;
     
@@ -430,10 +430,7 @@ ul{
 #carrossel{
     width: 95vw;
 }
-.navegacao{
-    
-    bottom: -600px;
-}
+
 #carrossel .navegacao label{
     
     display: flex;
