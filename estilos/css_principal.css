@@ -7,7 +7,7 @@
 body{
     box-sizing: border-box;
     background-color: #201b2c;
-    color: white;
+    color: #00ff88;
     font-family: "Noto Sans", sans-serif;
     transition: 0.3s;
 }
@@ -130,11 +130,11 @@ input[type="checkbox"]{
     color: black;
     margin-right: 10px;
 }
-.light #carrossel .navegacao label{
-    border:solid 2px rgb(216, 213, 213);
+.light  .navegacao label{
+    border:solid 2px black;
 }
-.light #carrossel .navegacao label:hover{
-    background-color: white;
+.light  .navegacao label:hover{
+    background-color: #00ff88;
 }
 .bi-moon{
     margin-right: 10px;
@@ -206,15 +206,21 @@ input[type="checkbox"]{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding: 20px;
     
 }
 
 
-.textfield>input{ cursor: pointer;
-    background-color:#f0ffff94;
+.textfield>input{
+     cursor: pointer;
+    background-color: #201b2c;
+    
     border-radius: 10px;
-    padding: 10px;width: 100%;
+    padding: 10px;
+    width: 100%;
+    color:#00ff88;
+    
+
     
 }
 
@@ -293,8 +299,10 @@ input[type='radio']{display: none;}
     height: 17px;
     border: 2px solid rgb(216, 213, 213);
     margin: 10px; transition: .4s;
+    
  }
- #carrossel .navegacao label:hover{
+ 
+ .navegacao label:hover{
     background-color: #00ff88;
    
  }
@@ -371,6 +379,19 @@ ul{
     justify-content: center;
 
 }
+#opcoes{ 
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #201b2c;
+    height: 70vh;
+    width: 97%;
+     }
+
 .estudantes_felizes{width: 40vw;}
 #carrossel{
     width: 80vw;
