@@ -98,6 +98,7 @@ ul{width: 50%;
 
 input[type="checkbox"]{
     display: none;
+
 }
 
  .light header{
@@ -138,6 +139,13 @@ input[type="checkbox"]{
 }
 .light .bi-moon{
     display: none;
+}
+
+.light .textfield>input{
+   
+    background-color: aquamarine;
+    color: black;
+    
 }
 /*Modo claro e modo escuro*/
 
@@ -214,7 +222,7 @@ input[type="checkbox"]{
 .textfield>input{
     margin: 10px;
      cursor: pointer;
-    background-color: #201b2c;
+    background-color: #3c3252;
     
     border-radius: 10px;
     padding: 10px;
@@ -483,3 +491,9 @@ ul{
     margin: 10px; transition: .4s;}
 }
 
+footer{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
