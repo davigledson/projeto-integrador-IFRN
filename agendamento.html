@@ -13,7 +13,7 @@
         <form action="#">
             <fieldset>
                 <legend>
-                    <b>Formulario de Alunos</b>
+                    <b>Formulário Para Marcação De Banca De Defesa De Dissertação</b>
                     </legend>
                     <br>
 
@@ -37,7 +37,14 @@
                         <label class="efeito_de_mini_zoom" for="telefone">Telefone</label>
 
                     </div>
-                    <p>Tipo de reunião</p>
+
+                    <div class="inputbox">
+                        
+                        <input type="number" name="matricula" id="matricula" class="inputusuario" required>
+                        <label class="efeito_de_mini_zoom" for="matricula">N° de Matricula</label>
+
+                    </div>
+                    <p>Tipo de reunião:</p>
 
                     <input type="radio" id="videoconferencia" name="tipo" value="videoconferencia" required>
                     <label for="videoconferencia">Videoconferência</label>
@@ -77,13 +84,110 @@
 
                     </div>
 
-                    <input type="submit" name="submit" id="submit">
+                    <div class="inputbox">
+
+                        <label for="horario"><b>Horário:</b> </label>
+                        <input type="time" name="horario" id="horario"  required>
+                        
+
+                    </div>
+
+                    <div class="inputbox">
+                        
+                        <input  type="text" name="linha_de_pesquisa" id="linha_de_pesquisa" class="inputusuario" required>
+                        <label class="efeito_de_mini_zoom" for="linha_de_pesquisa"><b>Linha de Pesquisa</b> </label>
+
+                    </div>
+
+                    <div class="inputbox">
+                        
+                        <input type="text" name="titulo_do_trabalho" id="titulo_do_trabalho" class="inputusuario" required>
+                        <label class="efeito_de_mini_zoom" for="titulo_do_trabalho"><b>Titulo do Trabalho</b> </label>
+
+                    </div>
+
+                    <div class="boxtextarea">
+                        <p><b>Resumo</b></p>
+                        <textarea placeholder="Escreva seu Resumo Aqui"  name="resumo" id="resumo" cols="30" rows="10"></textarea>
+                    </div>
+                    
+                    
+                    <fieldset class="iden_de_banca">
+                        <legend><b>Identificação Da Banca</b></legend>
+                        <p class="titulo"><b >Membros Externos Ao ProfEPT</b></p>
+                        
+                        <div class="inputbox">
+                        
+                            <input type="text" name="titular" id="titular" class="inputusuario" required>
+                            <label class="efeito_de_mini_zoom" for="titular">Titular / Instituição </label>
+    
+                        </div>
+                        <div class="inputbox">
+                        
+                            <input type="text" name="email3" id="email3" class="inputusuario" required>
+                            <label class="efeito_de_mini_zoom" for="email3">Email</label>
+    
+                        </div>
+                        <div class="inputbox">
+                        
+                            <input type="text" name="suplente" id="suplente" class="inputusuario" required>
+                            <label class="efeito_de_mini_zoom" for="suplente">Suplente / Instituição </label>
+    
+                        </div>
+                        <div class="inputbox">
+                        
+                            <input type="text" name="email4" id="email4" class="inputusuario" required>
+                            <label class="efeito_de_mini_zoom" for="email4">Email</label>
+    
+                        </div>
+                        <p class="titulo"><b >Membros Internos</b></p>
+                        <div class="inputbox">
+            
+                        <input type="text" name="presidente" id="presidente" class="inputusuario" required>
+                        <label class="efeito_de_mini_zoom" for="presidente"><b>Presidente</b> </label>
+
+                    </div>
+                    <div class="inputbox">
+                        
+                        <input type="text" name="email5" id="email5" class="inputusuario" required>
+                        <label class="efeito_de_mini_zoom" for="email5">Email</label>
+
+                    </div>
+                        <div class="inputbox">
+                        
+                            <input type="text" name="titular2" id="titular2" class="inputusuario" required>
+                            <label class="efeito_de_mini_zoom" for="titular2">Titular </label>
+    
+                        </div>
+                        <div class="inputbox">
+                        
+                            <input type="text" name="email6" id="email6" class="inputusuario" required>
+                            <label class="efeito_de_mini_zoom" for="email6">Email</label>
+    
+                        </div>
+                        <div class="inputbox">
+                        
+                            <input type="text" name="suplente2" id="suplente2" class="inputusuario" required>
+                            <label class="efeito_de_mini_zoom" for="suplente2">Suplente </label>
+    
+                        </div>
+                        <div class="inputbox">
+                        
+                            <input type="text" name="email7" id="email7" class="inputusuario" required>
+                            <label class="efeito_de_mini_zoom" for="email7">Email</label>
+    
+                        </div>
+                        <p>Obs. Caso um dos membros da banca seja de outra IES ou de outra Instituição Associada do ProfEPT, informar ao preencher.</p>
+                    </fieldset>
                     
 
-                    
+                    <input type="submit" name="submit" id="submit">
             </fieldset>
+            
         </form>
+        
     </section>
+    
   </main>
     
 </body>
