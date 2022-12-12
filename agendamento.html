@@ -4,93 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário </title>
     <link rel="stylesheet" href="estilos/agendamento.css">
 </head>
 <body>
-    <main>
+  <main>
+    <section class="formulario">
+        <form action="#">
+            <fieldset>
+                <legend>
+                    <b>Formulario de Alunos</b>
+                    </legend>
+                    <br>
 
-       <section id="formulario">
-           
-    <div class="textfield">     
-            <label for="nome">Aluno</label>
-            <input type="text" name="nome" placeholder="Aluno">
-        </div>
+                    <div class="inputbox">
 
-        <div class="textfield">
-            <label for="matricula">n°de matricula<label>
-            <input type="number" name="matricula" placeholder="Matricula">
-        </div>
+                        <input type="text" name="nome" id="nome" class="inputusuario" required>
+                        <label for="nome" class="efeito_de_mini_zoom">Nome completo</label>
 
-        <div class="textfield">
-            
-            <label for="telefone">Telefone</label>
-            <input type="number" name="telefone" placeholder="telefone para contato">
-                   
-        </div>
+                    </div>
 
-        <div class="textfield">
-            <label for="email">Email</label>
-            <input name="email" type="email" placeholder="email">
-        </div>
+                    <div class="inputbox">
+                        
+                        <input type="text" name="email" id="email" class="inputusuario" required>
+                        <label class="efeito_de_mini_zoom" for="email">Email</label>
 
-        <div class="textfield">
+                    </div>
 
-            
-            <label for="orientador">Orientador</label>
-            <input type="text" name="orientador" placeholder="Orientador">  
-    
-        </div>
+                    <div class="inputbox">
+                        
+                        <input type="tel" name="telefone" id="telefone" class="inputusuario" required>
+                        <label class="efeito_de_mini_zoom" for="telefone">Telefone</label>
 
-        <div class="textfield">
-                <label for="email1">Email</label>
-                <input name="email1" type="email" placeholder="email">
-        </div>
-        
-        <div class="textfield">
-            
-            <label for="databanca">Data da Banca</label>
-            <input type="date" name="databanca" placeholder="Data da Banca">
-                   
-        </div>
+                    </div>
+                    <p>Tipo de reunião</p>
 
-        <div class="textfield">
-            <label for="horario">Horário</label>
-            <input type="time" name="horario" placeholder="Horário">
-        </div>
+                    <input type="radio" id="videoconferencia" name="tipo" value="videoconferencia" required>
+                    <label for="videoconferencia">Videoconferência</label>
 
-        <div class="textfield">
-            
-            <label for="local">Local</label>
-            <input type="text" name="local" placeholder="Local"> 
-            
-            
-        </div>
-        <div class="textfield">
-            
-            <label for="vc">Videoconferência
-            </label>
-            <input type="text" name="vc" placeholder="Videoconferência"> 
-            
-            
-        </div>
-        <div class="textfield">
-            <label for="lp">Linha de Pesquisa
-            </label>
-            <input type="text" name="lp" placeholder="Linha de Pesquisa">
-        </div>
+                    <br>
 
-        <div class="textfield">
-            
-            <label for="resumo">Resumo</label>
-            <textarea name="resumo" id="" cols="80" rows="15" placeholder="Resumo">
+                    <input type="radio" id="presencial" name="tipo" value="presencial" required checked>
+                    <label  for="presencial">Presencial</label>
+                        <br>
+                        <br>
+                    
+                            
+                        <label  for="data_da_banca"><b>Data da Banca:</b> </label>
+                        <input type="date" name="data_da_banca" id="data_da_banca" required>
+                        
 
-            </textarea>
-        </div>
-        </section> 
+                    
 
-    </main>
-    
+                    <div class="inputbox">
+
+                        <input type="text" name="orientador" id="orientador" class="inputusuario" required>
+                        <label class="efeito_de_mini_zoom" for="orientador">Orientador</label>
+
+                    </div>
+
+                    <div class="inputbox">
+                        
+                        <input type="text" name="email2" id="email2" class="inputusuario" required>
+                        <label class="efeito_de_mini_zoom" for="email2">Email</label>
+
+                    </div>
+
+                    <div class="inputbox">
+                        
+                        <input type="text" name="local" id="local" class="inputusuario" required>
+                        <label class="efeito_de_mini_zoom" for="local">Local</label>
+
+                    </div>
+
+                    <input type="submit" name="submit" id="submit">
+                    
+
+                    
+            </fieldset>
+        </form>
+    </section>
+  </main>
     
 </body>
 </html>

@@ -1,68 +1,89 @@
 @charset "UTF-8";
 body{
-    background-color: #201b2c;
-    color: #00ff88;
-    font-family: "Noto Sans", sans-serif;
-}
-main{
-    margin: auto;
-    width: 80%;
-    background-color: #201b2c;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(20,147,200), rgb(17,54,71));
+    color: white;
 }
 
-#formulario{
-    display: flex;
-    flex-direction: column; 
-   align-items:center;
-   justify-content:center;
-
-    margin: auto;
+.formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0, 0,0,0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 30%;
+    margin: 30px;
+    
+    
+}
+fieldset{
+    border: 3px solid dodgerblue;
+    
+}
+legend{
+    border: 1px solid dodgerblue;
     padding: 10px;
-    background-color:#2f2841;
-
-    width: 100%;
-    
-    
-}
-
-
-.textfield{
-    display: flex;
-    flex-direction: column;
-    align-items:  center;
-    justify-content:center;
-    
-    width: 100%;
-    margin-bottom: 20px;
- 
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 8px;
     
 }
-.textfield input{
+
+input{margin: 3px 0px 30px 0px;}
+input[type="radio"]{
+    margin: 10px 0px 0px 10px;
+}
+#data_da_banca{
     border: none;
+    padding: 8px;
     border-radius: 10px;
-    padding: 15px;
-    background: #514869;
-    color: #f0ffffde;
-    font-size: 12pt;
-    box-shadow: 0px 10px 40px #00000056;
     outline: none;
-    box-sizing: border-box;
-    width:60%;
-    
-    
+    font-size: 12px;
+    width: 60%;
 }
-.textfield textarea{
+
+.inputbox{
+    position: relative;
+}
+
+.inputusuario{
+    background: none;
     border: none;
-    border-radius: 10px;
-    padding: 15px;
-    background: #514869;
-    color: #f0ffffde;
-    font-size: 12pt;
-    box-shadow: 0px 10px 40px #00000056;
+    border-bottom: 1px solid white;
     outline: none;
-    box-sizing: border-box;
-    width:60%;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+    color: white;
 }
-p{
-    margin-left: 20px;
+.efeito_de_mini_zoom{
+position: absolute;
+top: 0px;
+left: 0px;
+pointer-events: none; /*qualquer luga que clicar dentro do input ele vai executar a ação*/
+transition: .5s;
+}
+.inputusuario:focus ~ .efeito_de_mini_zoom, .inputusuario:valid ~.efeito_de_mini_zoom{
+    top: -20px;
+    font-size: 12px;
+    color: dodgerblue;
+}
+
+#submit{
+    background-image: linear-gradient(to right, rgb(0,90,197), rgb(90,20,220));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+
+    margin-bottom: 2px;
+}
+
+#submit:hover{
+    background-image: linear-gradient(to right, rgb(0,80,172), rgb(80,19,195));
 }
