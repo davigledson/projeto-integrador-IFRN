@@ -68,6 +68,8 @@ input[type="radio"]{
 }
 .inputbox{
     position: relative;
+    width: 100%;
+   
 }
 
 .inputusuario{
@@ -92,7 +94,14 @@ transition: .5s;
     font-size: 12px;
     color: dodgerblue;
 }
-.iden_de_banca{margin: 20px;}
+.iden_de_banca{
+    margin: 20px;
+    position: relative;
+    
+
+    
+    
+}
 
 #submit{
     background-image: linear-gradient(to right, rgb(0,90,197), rgb(90,20,220));
@@ -113,4 +122,43 @@ transition: .5s;
 
 .titulo{
     text-align: center;
+}
+
+.segundo_bloco{
+    display: inline-block;
+    
+    width: 43%; 
+    margin:10px 20px ;
+
+ }
+hr{border: solid 1px dodgerblue;margin: 30px;}
+
+
+/* Typical Device Breakpoints
+-----------------------------
+Pequenas Telas:
+Celular: 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes Telas: acima de 1200px
+*/
+
+@media only screen and (max-width: 650px){
+    .formulario{
+        width: 100%;
+    }
+    .inputbox , .segundo_bloco{
+        width: 100%;
+        margin: 0px;
+    }
+}
+
+@media only screen and (min-width:650px) and (max-width: 1200px){
+    .formulario{
+        width: 100%;
+    }
+    .inputbox , .segundo_bloco{
+        width: 40%;
+        margin: 20px 20px;
+    }
 }
