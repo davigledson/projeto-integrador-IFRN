@@ -11,6 +11,10 @@ body{
     font-family: "Noto Sans", sans-serif;
     transition: 0.3s;
 }
+
+/*
+-----cabeça------
+*/
 header{
     display: flex;
     align-items: center;
@@ -20,16 +24,9 @@ header{
     margin-bottom: 30px;
     
 }
-/*
------cabeça------
-*/
-h1{
-    font-size: 40px;
-    text-align: center;
-    margin: 30px;
-    color: #77FFC0;
-}
-#logo{
+
+
+header #logo{
     margin-left: 10px;
     width: 50%;
     display: flex;
@@ -38,7 +35,7 @@ h1{
     
 }
 
-#logo img{
+header #logo img{
 
 height: 140px;
 background-size: cover;
@@ -63,7 +60,7 @@ margin: 5px;
 }
 
 
-#icones {
+header #icones {
 display: flex;
 justify-content: end;
 flex-direction:row;
@@ -75,7 +72,7 @@ font-size: 2em;
 
 
 }
-ul{width: 50%;
+header ul{width: 50%;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -83,13 +80,20 @@ ul{width: 50%;
     justify-content: end;
     margin-left: 10px;
 }
-#icones li{
+header #icones li{
     
    display: flex;
    flex-direction: row;
    align-items: center;
     justify-content: center;
 
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    margin: 30px;
+   
 }
 /*Modo claro e modo escuro*/
 

@@ -1,9 +1,11 @@
 @charset "UTF-8";
 
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to right, rgb(20,147,220),rgb(17,54,71));
     color: white;
+    
 }
 
 .formulario{
@@ -12,7 +14,7 @@ body{
     background-color: rgb(0, 0,0,0.6);
     padding: 15px;
     border-radius: 15px;
-    width: 60%;
+    width: 60%;color: white;
     
     
     
