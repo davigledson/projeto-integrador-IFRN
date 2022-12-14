@@ -6,7 +6,7 @@
 }
 body{
     box-sizing: border-box;
-    background-color: #201b2c;
+    background-color: #362d49;
     color: #00ff88;
     font-family: "Noto Sans", sans-serif;
     transition: 0.3s;
@@ -15,7 +15,7 @@ header{
     display: flex;
     align-items: center;
     justify-content:center;
-    background-color:#201b2c ;
+    background-color:#201b2c;
     box-shadow: 0px 10px 40px #00000056;
     margin-bottom: 30px;
     
@@ -27,6 +27,7 @@ h1{
     font-size: 40px;
     text-align: center;
     margin: 30px;
+    color: #77FFC0;
 }
 #logo{
     margin-left: 10px;
@@ -107,6 +108,7 @@ input[type="checkbox"]{
 }
 .light{
     background: aquamarine;
+    
     color: black;
 }
 .light a{
@@ -155,7 +157,7 @@ input[type="checkbox"]{
  /*Main*/
  /*Parte para agendar apresentações, tcc e seminários*/
  #opcoes{ 
-    background: #2f2841;
+    
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
     display: flex;
@@ -165,11 +167,13 @@ input[type="checkbox"]{
     background: #201b2c;
     height: 70vh;
     width: 97vw;
-     margin-bottom: 20px;
      margin: auto;
     
     
     
+ }
+ #opcoes{
+    margin-bottom: 20px;
  }
  .left_part{
     display: flex;
