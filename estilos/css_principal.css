@@ -4,6 +4,9 @@
     margin: 0px;
     padding: 0px;
 }
+
+
+
 body{
     box-sizing: border-box;
     background-color: #362d49;
@@ -14,6 +17,49 @@ body{
 
 /*
 -----cabeça------
+*/
+
+/*
+menu mobile
+
+
+*/
+#btn-mobile{
+    display: none;
+}
+
+@media (max-width:920px){
+    #btn-mobile{
+        display: block;
+        padding: 10px;
+       
+    }
+    #menu{
+        display: none;
+        position: absolute;
+        width: 100%;
+        top:200px;
+        right: 0px;
+        background: #e7e7e7;
+        height: calc(100vh - 200px);
+        z-index: 1000;  
+    }
+
+    #nav.active #menu{
+        display: block;
+    }
+    #menu a{
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0,0,0,.05);
+    }
+}
+
+
+/*
+menu mobile
+
+
 */
 header{
     display: flex;
@@ -72,6 +118,9 @@ font-size: 2em;
 
 
 }
+nav{display: flex;
+align-items: flex-end;
+justify-content: end;}
 header ul{width: 50%;
     height: 100%;
     display: flex;
@@ -80,7 +129,7 @@ header ul{width: 50%;
     justify-content: end;
     margin-left: 10px;
 }
-header #icones li{
+header  #icones li{
     
    display: flex;
    flex-direction: row;
