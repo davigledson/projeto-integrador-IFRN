@@ -59,10 +59,12 @@ mudartema.addEventListener('change',function(){
 
 const btnMobile = document.getElementById('btn-mobile');
 
-function toggleMenu(){
+function toggleMenu(event){
+    if(event.type ==='touchstart') event.preventDefault()
     const nav = document.getElementById('nav');
     nav.classList.toggle('active');
     //toggle significa "adicione caso não tenha" "remove caso não tenha"
 }
 
 btnMobile.addEventListener('click', toggleMenu);
+btnMobile.addEventListener('touchstart', toggleMenu);

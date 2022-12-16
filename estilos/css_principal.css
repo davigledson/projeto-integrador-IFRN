@@ -26,32 +26,99 @@ menu mobile
 */
 #btn-mobile{
     display: none;
+
+   
 }
 
-@media (max-width:920px){
-    #btn-mobile{
-        display: block;
-        padding: 10px;
-       
+@media (max-width:950px){
+    
+    #icones{
+        background-color: aqua;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+   
     #menu{
-        display: none;
+        display: block;
         position: absolute;
         width: 100%;
-        top:200px;
-        right: 0px;
+        top:190px;
+        
         background: #e7e7e7;
-        height: calc(100vh - 200px);
+        right: 0px;
+        height: 0px;
+        transition: .6s;
         z-index: 1000;  
+        visibility: hidden;
+        overflow: hidden;
     }
 
     #nav.active #menu{
-        display: block;
+        height: calc(100vh - 190px);
+        visibility: visible;
+        overflow-y: auto;
     }
     #menu a{
         padding: 1rem 0;
         margin: 0 1rem;
         border-bottom: 2px solid rgba(0,0,0,.05);
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+     #btn-mobile{
+        display: flex;
+            align-items: center;
+            justify-content: center;
+           
+
+            
+           
+        
+        padding: .5rem 45vw;
+        border: none;
+        background: none;
+        cursor: pointer;
+        
+       
+    }
+    
+    .light #hamburguer{color: black;}
+    #hamburguer{
+        border-top:2px solid ;
+        width: 20px;
+    }
+    #hamburguer::after,#hamburguer::before{
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+
+    #nav.active #hamburguer{
+        border-top-color:transparent ;
+    }
+    #nav.active #hamburguer::before{
+      transform: rotate(135deg)   ;
+    }
+
+    #nav.active #hamburguer::after{
+        transform: rotate(-135deg);
+        top:-7px;
+    }
+    header #logo{
+       
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        
     }
 }
 
@@ -74,10 +141,10 @@ header{
 
 header #logo{
     margin-left: 10px;
-    width: 50%;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content:flex-start;
+    justify-content: baseline;
     
 }
 
@@ -108,11 +175,11 @@ margin: 5px;
 
 header #icones {
 display: flex;
-justify-content: end;
+justify-content: center;
 flex-direction:row;
 
 align-items: center;
-width: 50%;
+
 font-size: 2em;
 
 
@@ -427,8 +494,8 @@ flex-direction:row;
 
 align-items: center;
 
-font-size: 1.6em;
-margin-left: 3vw;
+
+
 
 
 }
