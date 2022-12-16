@@ -53,26 +53,30 @@ menu mobile
     }
 
     #nav.active #menu{
-        height: calc(100vh - 250px);
+        height: calc(100vh - 300px);
         visibility: visible;
         overflow-y: auto;
+        margin-bottom: 10px;
+        
+        
        
     }
     #menu a{
         padding: 1rem 0;
         margin: 0 1rem;
-        border-bottom: 2px solid rgba(0,0,0,.05);
-        width: 100%;
+        border-bottom: 2px solid rgba(28, 218, 107, 0.1);
+        width: 60vw;
         display: flex;
         align-items: center;
         justify-content: center;
     }
+    .light #menu a{border-bottom: 2px solid rgba(151, 61, 61, 0.1)}
      #btn-mobile{
         display: flex;
             align-items: center;
             justify-content: center;
         
-        padding: .5rem 50vw;
+        padding: .5rem 48vw;
         border: none;
         background: none;
         cursor: pointer;
@@ -455,6 +459,7 @@ a{
 
 
 .efeito{
+    
    padding-left: 20px;
   position: relative;
   box-sizing: border-box;
@@ -474,7 +479,7 @@ a{
     transition: all 1s ease;
     
 }
-.efeito_de_carregamento:hover::before{width: 120%;}
+.efeito_de_carregamento:hover::before{width: 115%;}
 
 footer{
     text-align: center;
@@ -496,6 +501,7 @@ ul{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+   
 }
 #icones li{
     
@@ -503,7 +509,7 @@ ul{
    flex-direction: row;
    align-items: center;
     justify-content: center;
-
+ margin-bottom: 10px;
 }
 #opcoes{ 
     background: #2f2841;
