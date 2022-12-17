@@ -40,9 +40,9 @@ h1{
 
 .light{
     background: aquamarine;
-    
     color: black;
 }
+.light .bi-sun{color: black;}
 .light #opcoes{
     background-color: aquamarine
 }
@@ -230,5 +230,5 @@ h1{
    
  }
 
-
+ input[type='radio']{display: none;}
 /*carrossel de imagens*/

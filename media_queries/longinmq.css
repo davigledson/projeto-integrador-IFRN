@@ -1,7 +1,18 @@
+/* Typical Device Breakpoints
+-----------------------------
+Pequenas Telas:
+Celular: 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes Telas: acima de 1200px
+*/
+
+
 @media only screen and (max-width: 950px){
     .card-login{
         width: 85%;
     }
+    #menu{margin-right: 30px;}
 }
 
 @media only screen and (max-width: 600px){

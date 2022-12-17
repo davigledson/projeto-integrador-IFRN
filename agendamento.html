@@ -8,10 +8,58 @@
     <link rel="stylesheet" href="estilos/agendamento.css">
     <link rel="stylesheet" href="media_queries/agendamentomq.css">
     
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="estilos/header_e_footer.css">
 </head>
 
+<header>
+        
+    <section id="logo">
+        <a href="https://profept.ifrn.edu.br/"><img class="efeito_de_zoom" src="imagens/logo.png" alt="agenda de apresentações" ></a>
+        
 
+    </section>
+    <section  id="icones">
+       
+        <nav id="nav">
+             <button id="btn-mobile">
+                <span id="hamburguer"></span>
+            </button>
+            
+        
+        <ul id="menu">
+            <li>
+                <a href="index.html" class="efeito efeito_de_carregamento"> Inicial</a>
+            </li>
+            
+            <li>
+                <a href="login.html" class="efeito efeito_de_carregamento" rel="next">Login</a>
+            </li>
+
+            <li>
+                <a href="agendamento.html" class="efeito efeito_de_carregamento" rel="next">Agendamento</a> 
+            </li>
+
+            <li>
+                <a href="sobre.html" class="efeito efeito_de_carregamento" rel="next">Sobre</a> 
+            </li>
+
+            
+
+            <li>
+                <input type="checkbox" name="mudar_tema" id="mudar_tema" >
+                <label for="mudar_tema" class="efeito efeito_de_carregamento">
+                    <i class="bi bi-sun "></i>
+                    <i class="bi bi-moon"></i>
+                </label>
+                
+            
+        </ul>
+        </nav>
+        
+
+    </section>
+</header>
 
 <body>
   <main>
@@ -32,7 +80,7 @@
 
                     <div class="inputbox">
                         
-                        <input type="text" name="email" id="email" class="inputusuario" required>
+                        <input type="email" name="email" id="email" class="inputusuario" required>
                         <label class="efeito_de_mini_zoom" for="email">Email</label>
 
                     </div>
@@ -78,7 +126,7 @@
 
                     <div class="inputbox">
                         
-                        <input type="text" name="email2" id="email2" class="inputusuario" required>
+                        <input type="email" name="email2" id="email2" class="inputusuario" required>
                         <label class="efeito_de_mini_zoom" for="email2">Email</label>
 
                     </div>
@@ -114,7 +162,7 @@
 
                     <div class="boxtextarea">
                         <p><b>Resumo</b></p>
-                        <textarea placeholder="Escreva seu Resumo Aqui"  name="resumo" id="resumo" cols="30" rows="10"></textarea>
+                        <textarea placeholder="Escreva seu Resumo Aqui"  name="resumo" id="resumo" cols="30" rows="20"></textarea>
                     </div>
                     
                     
@@ -139,7 +187,7 @@
     
                         <div class="inputbox segundo_bloco">
                         
-                            <input type="text" name="email3" id="email3" class="inputusuario" required>
+                            <input type="email" name="email3" id="email3" class="inputusuario" required>
                             <label class="efeito_de_mini_zoom" for="email3">Email</label>
     
                         </div>
@@ -165,7 +213,7 @@
     
                         <div class="inputbox segundo_bloco">
                         
-                            <input type="text" name="email4" id="email4" class="inputusuario" required>
+                            <input type="email" name="email4" id="email4" class="inputusuario" required>
                             <label class="efeito_de_mini_zoom" for="email4">Email</label>
     
                         </div>
@@ -194,7 +242,7 @@
                    
                     <div class="inputbox segundo_bloco">
                         
-                        <input type="text" name="email5" id="email5" class="inputusuario" required>
+                        <input type="email" name="email5" id="email5" class="inputusuario" required>
                         <label class="efeito_de_mini_zoom" for="email5">Email</label>
 
                     </div>
@@ -221,7 +269,7 @@
     
                         <div class="inputbox segundo_bloco">
                         
-                            <input type="text" name="email6" id="email6" class="inputusuario" required>
+                            <input type="email" name="email6" id="email6" class="inputusuario" required>
                             <label class="efeito_de_mini_zoom" for="email6">Email</label>
     
                         </div>
@@ -247,7 +295,7 @@
     
                         <div class="inputbox segundo_bloco">
                         
-                            <input type="text" name="email7" id="email7" class="inputusuario" required>
+                            <input type="email" name="email7" id="email7" class="inputusuario" required>
                             <label class="efeito_de_mini_zoom" for="email7">Email</label>
     
                         </div>
@@ -268,6 +316,16 @@
     </section>
     
   </main>
+  <footer>
+        
+    <p>Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte | Campus Mossoró</p>
+    <p>Rua Raimundo Firmino de Oliveira, 400 - Conj. Ulrick Graff, Mossoró - RN, CEP:59.628-330 CNPJ: 10.877.412/0004-00 </p>
+    <p>E-mail: cocsev.mo@ifrn.edu.br Telefone: (84) 3422-2652/2660</p>
+    <p>Copyright © 2022</p>
+    
+    <p>© 2022 IF Show. Todos os direitos reservados.</p>
+</footer>
     
 </body>
 </html>
+<script src="Javascript/javascript_principal.js"></script>

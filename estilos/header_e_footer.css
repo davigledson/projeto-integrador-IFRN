@@ -8,7 +8,7 @@ header{
     justify-content:center;
     background-color:#201b2c;
     box-shadow: 0px 5px 20px #00000056;
-    
+    color: #00ff88;
     
 }
 
@@ -86,10 +86,11 @@ header  #icones li{
     display: none;
 }
 @media (max-width:950px){
+    
     /*
     MENU
     */
-    
+    ul{margin: 0px;}
     #icones{
         background-color: rgba(0,0,0,.05);
         width: 100%;  
@@ -99,8 +100,11 @@ header  #icones li{
         display: flex;
         flex-direction: column;
         position: relative;
+        align-items: center;
+        justify-content: center;
         
         width: 100%;
+        
         
         background:none;
         
@@ -115,14 +119,14 @@ header  #icones li{
         height: calc(100vh - 200px);
         visibility: visible;
         overflow-y: auto;
-        margin-bottom: 10px;
+        
         
         
        
     }
     #menu a{
-        padding: 1rem 0;
-        margin: 0 1rem;
+        padding: 1rem 0px;
+        margin: 0px 1rem;
         border-bottom: 2px solid rgba(28, 218, 107, 0.1);
         width: 60vw;
         display: flex;
@@ -277,7 +281,7 @@ input[type="checkbox"]{
 .light .bi-sun{
     cursor: pointer;
     display: block;
-    color: black;
+    
     margin-right: 10px;
 }
 .bi-moon{
@@ -287,4 +291,3 @@ input[type="checkbox"]{
 .light .bi-moon{
     display: none;
 }
-input[type='radio']{display: none;}

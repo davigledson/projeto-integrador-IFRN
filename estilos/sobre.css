@@ -1,10 +1,37 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
-
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     font-family: "Noto Sans";
     background-color:black;
     color: white;
+}
+.light header {
+    background-color: aliceblue;
+    color: #005BAA;
+}
+.light header a{
+    color: #005BAA;
+}
+
+.light{
+    background: rgba(72, 130, 185, 0.418);
+ 
+    color: #005BAA;
+}
+.light .bloco{
+    color: black;
+     background-color:aliceblue;
+     border: solid 3px #50a5f0;
+    }
+.light .bloco  img{
+    border:solid 5px #005BAA;
+}
+.light .coor{
+    border: solid 3px rgb(159, 235, 9);
 }
 h1{text-align: center;}
 
@@ -15,7 +42,7 @@ h1{text-align: center;}
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    transition: all 3s ease;
+    transition: all 1s ease;
    
     
 }
@@ -26,7 +53,7 @@ h1{text-align: center;}
     align-items: center;
     justify-content: center;
 
-    border: solid 2px greenyellow;
+    border: solid 3px greenyellow;
     
 
     overflow: hidden;
@@ -37,13 +64,13 @@ h1{text-align: center;}
     height: 550px;
     width:  400px;
     margin: 10px;
-    transition: all 3s ease;
+    transition: all 1s ease;
     
     
 }
 
 .coor{
-    border: solid 2px rgb(62, 62, 241);
+    border: solid 3px rgb(62, 62, 241);
 }
 
 .bloco  img{
