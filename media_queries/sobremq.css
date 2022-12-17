@@ -1,0 +1,21 @@
+/* Typical Device Breakpoints
+-----------------------------
+Pequenas Telas:
+Celular: 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes Telas: acima de 1200px
+*/
+
+@media only screen and (max-width: 1291px){
+   
+    .bloco{
+        height: 600px;
+        width: 300px;
+    }
+}
+@media only screen and (max-width: 991px){
+.bloco{
+    width: 250px;
+}
+}

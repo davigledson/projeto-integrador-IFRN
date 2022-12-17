@@ -3,12 +3,52 @@
 body{
     margin: 0;
     font-family: "Noto Sans", sans-serif;
+    background-color: #362d49;
+    color: #00ff88;
 }
 body *{
     box-sizing: border-box;
+    
+}
+/*
+MODO CLARO E ESCURO
+*/
+
+
+.light .left-login h1{color: #2c8de2;}
+
+.light{
+    background: rgba(72, 130, 185, 0.418);
+    
+    color: #005BAA;
+}
+.light header {
+    background-color: aliceblue;
+    color: #005BAA;
+}
+.light header a{
+    color: #005BAA;
+}
+.light .main-login{
+  background-color:rgba(72, 130, 185, 0.418);
+}
+.light .card-login{
+    background-color: aliceblue;
+}
+.light .card-login h1{
+    color: #005BAA;
+}
+.light .card-login label{
+    color: #005BAA;
+}
+
+.light .btn-login{
+    color: black;
+    background-color: #2c8de2;
+    box-shadow: 0px 10px 40px -12px #00b7ff52;
 }
 .main-login{
-    width: 100vw;
+    width: 98vw;
     height: 100vh;
     background: #201b2c;
     display: flex;
@@ -24,13 +64,14 @@ body *{
     align-items: center;
     flex-direction: column;
 }
-.left-login> h1{
+.left-login h1{
     color: #77ffc0;
     font-size: 3vw;
 
 }
 .moca_do_escritorio{
     width: 32vw;
+    
     
     
 }
@@ -44,6 +85,7 @@ body *{
 }
 
 .card-login{
+    
     width: 60%;
     display: flex;
     justify-content: center;
@@ -115,37 +157,3 @@ Desktop: 992px até 1200px
 Grandes Telas: acima de 1200px
 */
 
-@media only screen and (max-width: 950px){
-    .card-login{
-        width: 85%;
-    }
-}
-
-@media only screen and (max-width: 600px){
-    .main-login{
-        flex-direction: column;
-        height: 110vh;
-    }
-    .left-login>h1{
-        display: none;
-    }
-    .left-login{
-        width: 100%;
-        height: auto;
-    }
-    .right-login{
-        width: 100%;
-        height: auto;
-    }
-    .moca_do_escritorio{
-        width: 100%;
-    }
-    .card-login{
-        width: 90%;
-    }
-    .moca_do_escritorio{
-        width: 70vw;
-        
-        
-    }
-}

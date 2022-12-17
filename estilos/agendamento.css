@@ -138,34 +138,4 @@ transition: .5s;
 hr{border: solid 1px dodgerblue;margin: 30px;}
 
 
-/* Typical Device Breakpoints
------------------------------
-Pequenas Telas:
-Celular: 600px até 768px
-Tablet: 768px até 992px
-Desktop: 992px até 1200px
-Grandes Telas: acima de 1200px
-*/
 
-@media only screen and (max-width: 650px){
-    .formulario{
-        width: 90%;
-        
-    }
-    .inputbox , .segundo_bloco{
-        width: 100%;
-        margin: 0px;
-    }
-}
-
-@media only screen and (min-width:650px) and (max-width: 1200px){
-    .formulario{
-        width: 90%;
-        
-    }
-    
-    .segundo_bloco{
-        width: 40%;
-        margin: 20px 20px;
-    }
-}

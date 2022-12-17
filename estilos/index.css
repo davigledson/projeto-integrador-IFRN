@@ -1,0 +1,234 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body{
+    box-sizing: border-box;
+    background-color: #362d49;
+    color: #00ff88;
+    font-family: "Noto Sans", sans-serif;
+    transition: 0.3s;
+}
+
+/*
+-----cabeça------
+*/
+
+
+
+
+
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    margin: 30px;
+   
+}
+/*Modo claro e modo escuro*/
+
+
+.light header{
+    background-color: aquamarine;
+    color: #00ff88;
+}
+
+.light{
+    background: aquamarine;
+    
+    color: black;
+}
+.light #opcoes{
+    background-color: aquamarine
+}
+
+
+.light  .navegacao label{
+    border:solid 2px black;
+}
+.light  .navegacao label:hover{
+    background-color: #00ff88;
+}
+
+.light .textfield>input{
+   
+    background-color: aquamarine;
+    color: black;
+    
+}
+/*Modo claro e modo escuro*/
+
+/*
+-----cabeça------
+*/
+ /*Main*/
+ /*Parte para agendar apresentações, tcc e seminários*/
+ #opcoes{ 
+    
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    background: #201b2c;
+    height: 70vh;
+    width: 97vw;
+     margin: auto;
+    
+    
+    
+ }
+ #opcoes{
+    margin-bottom: 20px;
+ }
+ .left_part{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+ }
+ .estudantes_felizes{width: 30vw;}
+
+ .right_part{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    
+    align-items: center;
+    font-size: 1.6em;
+    
+ }
+ 
+ .card_opcoes{
+    
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    
+ }
+.textfield{
+    
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+
+.textfield>input{
+    margin: 10px;
+     cursor: pointer;
+    background-color: #3c3252;
+    
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    color:#00ff88;
+    
+
+    
+}
+
+ 
+/*carrossel de imagens*/
+
+ 
+
+#carrossel{
+    
+    box-sizing: border-box;
+    overflow: hidden;
+   border-radius: 20px;
+    
+
+   margin: auto;
+    height: 70vh;
+    width: 60vw;
+    
+   
+    
+ }
+ #slides{
+    display: flex;
+    height: 100%;
+    width: 500%;
+    
+   
+    
+ } 
+ .slide{
+   
+    width: 20%;
+    transition: .6s;
+     
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+    
+}
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+#slide2:checked ~ .s1{
+    margin-left: -20%;
+}
+#slide3:checked ~ .s1{
+    margin-left: -40%;
+}
+#slide4:checked ~ .s1{
+    margin-left: -60%;
+}
+ .navegacao{
+   
+   display: flex;
+   position: relative;
+   margin: auto;
+  
+   justify-content: center;
+     
+
+ }
+
+ 
+ .navegacao label{
+    
+    display: block;
+    
+   cursor: pointer;
+   border-radius: 5px;
+    width: 70px;
+    height: 17px;
+    border: 2px solid rgb(216, 213, 213);
+    margin: 10px; transition: .4s;
+    
+ }
+ 
+ .navegacao label:hover{
+    background-color: #00ff88;
+   
+ }
+
+
+/*carrossel de imagens*/
