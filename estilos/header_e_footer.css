@@ -9,7 +9,7 @@ header{
     background-color:#201b2c;
     box-shadow: 0px 5px 20px #00000056;
     color: #00ff88;
-    
+   
 }
 
 
@@ -139,7 +139,7 @@ header  #icones li{
             align-items: center;
             justify-content: center;
         
-        padding: .5rem 48vw;
+        padding: .5rem 47vw;
         border: none;
         background: none;
         cursor: pointer;
@@ -215,6 +215,11 @@ header  #icones li{
 }
 }
 
+@media (max-width:650px){
+    #btn-mobile{
+        padding: .5rem 46vw;
+    }
+}
 
 a{
     text-decoration: none;

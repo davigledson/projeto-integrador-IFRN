@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 header{
-    width: 99vw;
-    margin: -10px -9px 20px -13px;
-    
+    width: 100%;
+    margin: -10px 0px 20px -10px;
+    padding: 9px;
 }
 .light header {
     background-image: linear-gradient(to right, rgb(116, 189, 231),#1161da);

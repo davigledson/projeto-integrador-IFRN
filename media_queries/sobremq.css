@@ -8,7 +8,8 @@ Grandes Telas: acima de 1200px
 */
 
 @media only screen and (max-width: 1291px){
-   
+   header #logo {
+    margin-left: 0px}
     .bloco{
         height: 600px;
         width: 300px;
