@@ -1,0 +1,38 @@
+.right-login{
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.textfield{
+    margin-top: 10px;
+}
+.card-login{
+    margin-top: 70px;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+footer{
+    margin-top: 70px;
+}
+
+@media only screen and (max-width: 950px){
+    .right-login{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 650px){
+    .right-login{
+        width: 90%;
+    }
+}
