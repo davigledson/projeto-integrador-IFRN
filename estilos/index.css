@@ -200,6 +200,9 @@ h1{
 #slide4:checked ~ .s1{
     margin-left: -60%;
 }
+
+
+
  .navegacao{
    
    display: flex;

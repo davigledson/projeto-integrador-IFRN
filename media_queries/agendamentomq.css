@@ -17,7 +17,10 @@ Grandes Telas: acima de 1200px
         margin: 0px;
     }
 }
-@media only screen and (max-width: 950px){
+@media only screen and (max-width: 950px){.formulario{
+    width: 80%;
+    
+}
     #menu{margin-right: 30px;}
     header{
         width: 100%;
@@ -25,9 +28,9 @@ Grandes Telas: acima de 1200px
         padding: 9px;
     }
 }
-@media only screen and (min-width:650px) and (max-width: 1200px){
+@media only screen and (min-width:950px) and (max-width: 1200px){
     .formulario{
-        width: 90%;
+        width: 80%;
         
     }
     
