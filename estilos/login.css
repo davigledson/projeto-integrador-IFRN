@@ -41,6 +41,11 @@ MODO CLARO E ESCURO
 .light .card-login label{
     color: #005BAA;
 }
+.light .esquecisenha a{
+    
+    color: #005BAA;
+    
+}
 
 .light .btn-login{
     color: black;
@@ -139,11 +144,26 @@ MODO CLARO E ESCURO
     color: #f0ffffde;
     margin-bottom: 10px;
     margin-top: 5px;
+    cursor: pointer;
 }
 
 .textfield>input::placeholder{
 color: #f0ffff94;
 }
+.esquecisenha{
+    display: flex;
+    align-items: flex-end;
+    color: #514869;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.esquecisenha a{
+    
+    color: #f0ffffde;
+    
+}
+
 
 .btn-login{
     width: 100%;
