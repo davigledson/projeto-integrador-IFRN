@@ -43,7 +43,7 @@ h1{
     color: black;
 }
 .light .bi-sun{color: black;}
-.light #opcoes{
+.light .opcoes{
     background-color: aquamarine
 }
 
@@ -68,7 +68,7 @@ h1{
 */
  /*Main*/
  /*Parte para agendar apresentações, tcc e seminários*/
- #opcoes{ 
+ .opcoes{ 
     
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
@@ -81,10 +81,12 @@ h1{
     width: 97vw;
      margin: auto;
     
-    
-    
+       
  }
- #opcoes{
+ .opcoes2{
+    flex-direction: row;
+ }
+ .opcoes{
     margin-bottom: 20px;
  }
  .left_part{
