@@ -20,10 +20,6 @@ body{
 */
 
 
-
-
-
-
 h1{
     font-size: 40px;
     text-align: center;
@@ -34,17 +30,17 @@ h1{
 
 
 .light header{
-    background-color: aquamarine;
-    color: #00ff88;
+    background-image: linear-gradient(to right,rgb(55, 226, 169),rgb(53, 130, 231));
+    color: #0f73e6;
 }
 
 .light{
-    background: aquamarine;
+    background-image: linear-gradient(to right,rgb(53, 130, 231),aliceblue);
     color: black;
 }
-.light .bi-sun{color: black;}
+.light .bi-sun{color: white;}
 .light .opcoes{
-    background-color: aquamarine
+    background-image: linear-gradient(to right,aliceblue,rgb(53, 130, 231));
 }
 
 
@@ -60,6 +56,9 @@ h1{
     background-color: aquamarine;
     color: black;
     
+}
+.light header a{
+    color: white;
 }
 /*Modo claro e modo escuro*/
 
