@@ -135,9 +135,11 @@ h1{
     padding: 20px;
     
 }
+.textfield a{cursor: pointer;}
 
-
-
+.textfield a:hover{
+    color: white;
+}
 
  
 /*carrossel de imagens*/

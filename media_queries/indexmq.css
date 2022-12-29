@@ -3,8 +3,13 @@
 
 @media only screen and (max-width: 950px){
     
-
-    
+h3{
+    font-size: 1em;
+    text-align: center;
+}
+    .textfield{
+        padding: 10px;
+    }
 #opcoes{ 
     background: #2f2841;
     border-radius: 20px;
