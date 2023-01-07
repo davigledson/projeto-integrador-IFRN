@@ -10,17 +10,17 @@ body{
     color: white;
 }
 .light header {
-    background-color: aliceblue;
-    color: #005BAA;
+    background-image: linear-gradient(to right,rgb(104, 230, 209),rgb(53, 130, 231));    color: #005BAA;
 }
 .light header a{
-    color: #005BAA;
+    color: white;
 }
-
+.light .bi-sun{
+    color: white;
+}
 .light{
-    background: rgba(72, 130, 185, 0.418);
- 
-    color: #005BAA;
+    background-image: linear-gradient(to right,rgb(53, 130, 231),rgb(104, 230, 209)); 
+    color: white;
 }
 .light .bloco{
     color: black;

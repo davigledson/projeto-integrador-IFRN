@@ -151,7 +151,7 @@ transition: .5s;
     font-size: 15px;
     border-radius: 10px;
     cursor: pointer;
-    transition:  1s;
+    
     /*gradient não suportam transições */
     background-image: linear-gradient(to right, #02f182, rgb(6, 108, 233));
     color: white; 
@@ -160,7 +160,7 @@ transition: .5s;
 }
 
 #submit:hover{
-    transition:  1s;
+    
     background-image: linear-gradient(to right , rgb(0,90,197), #28ec91);
 }
 
