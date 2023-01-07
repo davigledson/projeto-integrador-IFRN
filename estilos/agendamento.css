@@ -144,22 +144,27 @@ transition: .5s;
 }
 
 #submit{
-    background-image: linear-gradient(to right, rgb(0,90,197), #00ff88);
+    
     width: 100%;
     border: none;
     padding: 15px;
     font-size: 15px;
     border-radius: 10px;
     cursor: pointer;
-    color: white;
+    transition:  1s;
+    /*gradient não suportam transições */
+    background-image: linear-gradient(to right, #02f182, rgb(6, 108, 233));
+    color: white; 
    
-    
    
 }
 
 #submit:hover{
-    background-image: linear-gradient(to right, #00ff88, rgb(0,90,197));
+    transition:  1s;
+    background-image: linear-gradient(to right , rgb(0,90,197), #28ec91);
 }
+
+
 
 .titulo{
     text-align: center;

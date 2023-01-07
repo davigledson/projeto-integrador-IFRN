@@ -42,6 +42,9 @@ h3{
         font-size: 30px;}
 
 .estudantes_felizes{width: 40vw;}
+.estudantes__com_duvidas{
+    width: 39vw;
+}
 #carrossel{
     width: 80vw;
 }

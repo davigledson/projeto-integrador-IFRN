@@ -99,7 +99,8 @@ h1{
 
  }
  .estudantes_felizes{width: 30vw;}
-
+ .estudantes__com_duvidas{ width: 30vw;
+}
  .right_part{
     width: 100vw;
     height: 100vh;

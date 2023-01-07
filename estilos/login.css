@@ -18,19 +18,19 @@ MODO CLARO E ESCURO
 .light .left-login h1{color: #2c8de2;}
 
 .light{
-    background: rgba(72, 130, 185, 0.418);
+    background-image: linear-gradient(to right,aliceblue,rgb(53, 130, 231));
     
     color: #005BAA;
 }
 .light header {
-    background-color: aliceblue;
-    color: #005BAA;
+    background-image: linear-gradient(to right,rgb(190, 220, 247),rgb(53, 130, 231));
+    color: white;
 }
 .light header a{
-    color: #005BAA;
+    color: white;
 }
 .light .main-login{
-  background-color:rgba(72, 130, 185, 0.418);
+    background-image: linear-gradient(to right,aliceblue,rgb(53, 130, 231));
 }
 .light .card-login{
     background-color: aliceblue;
