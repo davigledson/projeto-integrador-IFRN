@@ -24,7 +24,7 @@ header #logo{
 
 header #logo img{
 
-height: 140px;
+height: 120px;
 background-size: cover;
 margin: 5px;
 }
@@ -54,7 +54,8 @@ flex-direction:column;
 
 align-items: center;
 
-font-size: 2em;
+width: 90%;
+font-size: 1.3em;
 
 
 
@@ -65,12 +66,13 @@ align-items: flex-end;
 justify-content: end;
 }
 header ul{
-    width: 50%;
+   
     height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: end;
+    
     
 }
 header  #icones li{
@@ -79,7 +81,7 @@ header  #icones li{
    flex-direction: row;
    align-items: center;
     justify-content: center;
-
+  
 }
 
 #btn-mobile{
