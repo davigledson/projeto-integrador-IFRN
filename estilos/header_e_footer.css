@@ -116,7 +116,7 @@ header  #icones li{
     }
 
     #nav.active #menu{
-        height: calc(100vh - 200px);
+        height: calc(110vh - 190px);
         visibility: visible;
         overflow-y: auto;
         
@@ -213,15 +213,8 @@ header  #icones li{
     justify-content: center;
  margin-bottom: 10px;
 }
-.light .bi-sun, .bi-moon{
-   
-    margin-left: 20px;
-text-align: center;
-width: 54vw;  
-    
-    
- 
-}
+
+
 
 }
 
