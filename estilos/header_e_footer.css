@@ -213,6 +213,16 @@ header  #icones li{
     justify-content: center;
  margin-bottom: 10px;
 }
+.light .bi-sun, .bi-moon{
+   
+    margin-left: 20px;
+text-align: center;
+width: 54vw;  
+    
+    
+ 
+}
+
 }
 
 @media (max-width:650px){
@@ -231,7 +241,7 @@ a{
 
 .efeito{
     
-   padding-left: 20px;
+   padding-left: 5px;
   position: relative;
   box-sizing: border-box;
   margin: 0px 30px 0px 0px;
@@ -242,15 +252,16 @@ a{
     content: "";
     position: absolute;
     top: 100%;
-    left: 0px;
+    left: -5px;
     width: 0px;
-    height: 5px;
+    height: 3px;
     background-color: #00ff88;
    text-align: center;
     transition: all 1s ease;
     
 }
-.efeito_de_carregamento:hover::before{width: 115%;}
+.efeito_de_carregamento:hover::before{
+    width: calc(100% + 15px);}
 
 footer{
     text-align: center;
@@ -287,10 +298,10 @@ input[type="checkbox"]{
     cursor: pointer;
     display: block;
     
-    margin-right: 10px;
+  
 }
 .bi-moon{
-    margin-right: 10px;
+    
     cursor: pointer;
 }
 .light .bi-moon{
