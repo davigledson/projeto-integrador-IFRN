@@ -94,8 +94,8 @@ header  #icones li{
     */
     ul{margin: 0px;}
     #icones{
-        background-color: rgba(0,0,0,.05);
-        width: 100%;  
+      
+        width: 100%;
     }
    
     #menu{
@@ -105,7 +105,7 @@ header  #icones li{
         align-items: center;
         justify-content: center;
         
-        width: 100%;
+        width: 60%;
         
         
         background:none;
@@ -130,7 +130,7 @@ header  #icones li{
         padding: 1rem 0px;
         margin: 0px 1rem;
         border-bottom: 2px solid rgba(28, 218, 107, 0.1);
-        width: 60vw;
+        width: 100vw;
         display: flex;
         align-items: center;
         justify-content: center;
