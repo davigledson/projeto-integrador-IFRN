@@ -28,7 +28,7 @@ body{
     transition: 0.3s;
 }
 .light h1{
-color: rgb(43, 255, 0);
+color: rgb(0, 110, 255);
 }
 .escolhas{
     margin: auto;
@@ -45,7 +45,7 @@ color: rgb(43, 255, 0);
 .escolha{
     cursor: pointer;
     margin: 50px;
-    width: 50%;
+    
     height: 80%;
     
     box-sizing: border-box;
@@ -76,5 +76,8 @@ color: rgb(43, 255, 0);
     .escolhas{
         flex-direction: column;
         height: auto;
+    }
+    .escolha{
+        width: 90%;
     }
 }
