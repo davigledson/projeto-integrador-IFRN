@@ -44,7 +44,7 @@ color: rgb(0, 110, 255);
 }
 .escolha{
     cursor: pointer;
-    margin: 50px;
+    
     
     height: 80%;
     
@@ -62,7 +62,7 @@ color: rgb(0, 110, 255);
     background: #403758;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
-    margin: 10px; 
+    margin: 20px; 
 }
 .escolhas a{
     width: 100%;
@@ -72,12 +72,18 @@ color: rgb(0, 110, 255);
     height: 100%;
     
 }
+@media only screen and (max-width: 950px){
+.escolhas{
+    width: 100%;
+}
+}
 @media only screen and (max-width: 650px){
     .escolhas{
         flex-direction: column;
-        height: auto;
+        width:60%;
+        height: 100%;
     }
     .escolha{
-        width: 90%;
+        width: 100%;
     }
 }
