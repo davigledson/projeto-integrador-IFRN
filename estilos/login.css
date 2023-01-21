@@ -164,11 +164,16 @@ color: #f0ffff94;
     
 }
 
-
+.escolha{
+    width: 100%;
+    margin: 20px;
+    
+   
+  }
 .btn-login{
     width: 100%;
     padding: 16px 0px;
-    margin: 20px;
+    
     border: none;
     border-radius: 8px;
     outline: none;
