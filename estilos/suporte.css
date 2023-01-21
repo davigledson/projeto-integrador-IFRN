@@ -1,0 +1,102 @@
+body{
+    transition: 0.5s ease-in-out;
+}
+#mensagem{
+    background-color: #403758;
+    margin: auto;
+    border-radius: 10px;
+    color: aliceblue;
+   box-sizing: border-box;
+   max-height:100px;
+   max-width: 80%;
+    
+}
+#mensagem::placeholder{
+    color: aliceblue;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.nota{
+    box-sizing: border-box;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border: none black 2px;
+    width: 60%;
+   
+    background: #403758;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+    margin: 10px; 
+}
+.notas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2f2841;
+    margin: auto;
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1.3em;
+   
+}
+.titulo{
+text-align: center;
+margin: 50px;
+}
+.t2{
+margin-top: 2em;
+}
+.light .notas{
+background-color: aliceblue;
+}
+.light .nota{
+background-color: aliceblue;
+box-shadow: blue;
+}
+.light #mensagem{
+    background-color: aliceblue;
+    color: #005BAA;
+}
+.light #mensagem::placeholder{
+    background-color: aliceblue;
+    color: #005BAA;
+}
+@media only screen and (max-width: 950px){
+   .notas{
+    
+    flex-wrap: wrap;
+    
+    align-items: center;
+    justify-content: center;
+    
+   }
+   .nota{
+    display: inline-block;
+    width: 40%;
+    font-size: 1em;
+   }
+   
+   
+}
+@media only screen and (max-width: 650px){
+    .notas{
+     
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     
+    }
+    .nota{
+     
+     width: 100%;
+     font-size: 1em;
+    }
+    
+    
+ }
