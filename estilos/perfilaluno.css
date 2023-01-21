@@ -1,0 +1,97 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+*{margin: 0;padding: 0;}
+body{
+    color: white;
+    background-color: #201b2c;
+    
+    font-family: "Noto Sans", sans-serif;
+}
+.light{
+    background-image: linear-gradient(to right,aliceblue,rgb(53, 130, 231));
+    
+    color: #005BAA;
+}
+.light header {
+    background-image: linear-gradient(to right,rgb(190, 220, 247),rgb(53, 130, 231));
+    color: white;
+}
+.light a{
+        color: white;
+    }
+.light .vazia{
+    background-image: linear-gradient(to right,rgb(53, 130, 231),aliceblue); 
+    border: none;
+}
+.light footer{
+    background: local;
+    border: none;
+}
+header{
+    background-color: black;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+h1{
+    margin: 10px;
+}
+#profile img{
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+}
+.info{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+   
+}
+hr{margin: 10px;
+    width: 57%;
+}
+.textfield{
+    
+    display: flex;
+    align-items:  center;
+    justify-content:  center;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+   
+}
+
+.vazia{
+    border: 2px solid #5bff15;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    padding: 20px
+}
+p{
+    margin: 10px;
+    font-weight: 600;
+}
+    footer{
+        background-color: black;
+        margin: 0;
+    }
+
+@media only screen and (max-width: 950px){
+.vazia{width: 90%;}
+.textfield{width: 90%}
+#profile img{
+    width: 200px;
+    height: 200px;
+}
+    }

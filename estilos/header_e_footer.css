@@ -140,7 +140,7 @@ header  #icones li{
         display: flex;
             align-items: center;
             justify-content: center;
-        
+            
         padding: .5rem 47vw;
         border: none;
         background: none;
@@ -214,6 +214,7 @@ header  #icones li{
    align-items: center;
     justify-content: center;
  margin-bottom: 10px;
+ 
 }
 
 
