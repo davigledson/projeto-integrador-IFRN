@@ -1,5 +1,21 @@
 body{
     transition: 0.5s ease-in-out;
+    box-sizing: border-box;
+}
+.left-login{
+   margin: auto;
+   width: 50vw;
+    height: 70vh;
+}
+.left-login img{
+    width: 80%;
+    
+}
+.right-login{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #mensagem{
     background-color: #403758;
@@ -9,6 +25,7 @@ body{
    box-sizing: border-box;
    max-height:100px;
    max-width: 80%;
+ 
     
 }
 #mensagem::placeholder{
@@ -45,12 +62,16 @@ body{
     font-size: 1.3em;
    
 }
+h1{color: #77FFC0;}
 .titulo{
 text-align: center;
-margin: 50px;
+margin-top: 50px;
+
 }
+
 .t2{
-margin-top: 2em;
+margin-top: 4em;
+
 }
 .light .notas{
 background-color: aliceblue;
@@ -67,7 +88,22 @@ box-shadow: blue;
     background-color: aliceblue;
     color: #005BAA;
 }
+.light h1{
+    color: rgb(0, 140, 255);
+}
+.light .left-login .day{display: none;}
+.light .left-login .night{display: block;}
+.night{
+    display: none;
+}
+.btn-login{
+    margin: 20px;
+}
+
 @media only screen and (max-width: 950px){
+    .left-login{
+        width: 80%;
+    }
    .notas{
     
     flex-wrap: wrap;
@@ -85,6 +121,9 @@ box-shadow: blue;
    
 }
 @media only screen and (max-width: 650px){
+    .left-login{
+        width: 100%;
+    }
     .notas{
      
      flex-wrap: wrap;
