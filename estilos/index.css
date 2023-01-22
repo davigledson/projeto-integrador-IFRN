@@ -203,6 +203,7 @@ h1{
 }
 #imagem2{
     background-image: url('../imagens/apresentacao2.jpg');
+    /*Toma cuidado com os caminhos das imagem o live server pode enganar*/
     background-size: cover;
    
     background-repeat: no-repeat;
