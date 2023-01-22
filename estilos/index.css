@@ -195,15 +195,14 @@ h1{
     color: white;
 }
 #imagem1{ 
-    background-image: url('/imagens/apresentacao1.jpg');background-size:cover;
-   
-    background-repeat: no-repeat;
-   
+    background-image: url('../imagens/apresentacao1.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;  
     height: 100%;
     width: 100%;
 }
 #imagem2{
-    background-image: url('/imagens/apresentacao2.jpg');
+    background-image: url('../imagens/apresentacao2.jpg');
     background-size: cover;
    
     background-repeat: no-repeat;
@@ -211,14 +210,14 @@ h1{
     width: 100%;
 }
 #imagem3{
-    background-image: url('/imagens/apresentacao3.jpg');
+    background-image: url('../imagens/apresentacao3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
     width: 100%;
 }
 #imagem4{
-    background-image: url('/imagens/apresentacao4.jpg');
+    background-image: url('../imagens/apresentacao4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     
