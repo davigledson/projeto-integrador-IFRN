@@ -165,32 +165,84 @@ h1{
     display: flex;
     height: 100%;
     width: 500%;
-    
+    background: no-repeat;
    
     
  } 
+
  .slide{
    
     width: 20%;
     transition: .6s;
+    
      
 }
-.slide img{
-    width: 100%;
+.slide .text_aside{
+    text-align: bottom;
+    font-weight: 800;
+   display: flex;
+   align-items: bottom;
+   justify-content: center;
+   
+   
+
+}
+#imagem1{ 
+    background-image: url('/imagens/apresentacao1.jpg');background-size:cover;
+   
+    background-repeat: no-repeat;
+   
     height: 100%;
+    width: 100%;
+}
+#imagem2{
+    background-image: url('/imagens/apresentacao2.jpg');
+    background-size: cover;
+   
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+#imagem3{
+    background-image: url('/imagens/apresentacao3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+#imagem4{
+    background-image: url('/imagens/apresentacao4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     
+    height: 100%;
+    width: 100%;
 }
 #slide1:checked ~ .s1{
     margin-left: 0;
+    width: 20%;
+    height: 100%;
+    
+    
 }
 #slide2:checked ~ .s1{
     margin-left: -20%;
+   
+    
+    width: 20%;
+    height: 100%;
 }
 #slide3:checked ~ .s1{
     margin-left: -40%;
+    
+    width: 20%;
+    height: 100%;
 }
 #slide4:checked ~ .s1{
     margin-left: -60%;
+    
+    width: 20%;
+    height: 100%;
 }
 
 
