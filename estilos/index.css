@@ -24,19 +24,27 @@ h1{
     font-size: 40px;
     text-align: center;
     margin: 30px;
+    
+    
+ 
    
 }
 /*Modo claro e modo escuro*/
 
 
 .light header{
-    background-image: linear-gradient(to right,rgb(55, 226, 169),rgb(53, 130, 231));
+    background-image: linear-gradient(to right,rgb(55, 226, 169),rgb(68, 143, 241));
     color: #0f73e6;
 }
 
 .light{
-    background-image: linear-gradient(to right,rgb(53, 130, 231),aliceblue);
+    background-image: linear-gradient(to right,rgb(86, 156, 247),aliceblue);
     color: black;
+    
+}
+.light h1,h3{
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.527) 5px 2px 5px;
 }
 .light .bi-sun{color: white;}
 .light .opcoes{
@@ -124,6 +132,7 @@ h1{
     padding: 30px 35px;
     
  }
+
 .textfield{
     
     font-size: 1rem;
