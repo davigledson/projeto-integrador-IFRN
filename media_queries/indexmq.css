@@ -50,58 +50,18 @@ h3{
 }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 650px){
 
    
-    #logo{
-        
-        display: flex;
-        align-items: center;
-        justify-content:center;
-        
-    }
     
-    #logo img{
-    
-    height: 140px;
-    background-size: cover;
-    margin: 5px;
-    
-    
-    }
-    header{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    #icones {
-display: flex;
-justify-content: center;
-align-items: center;
-
-font-size: 1.6em;
-
-
-}
-ul{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-#icones li{
-    margin-left: -20px;
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-    justify-content: center;
-
-}
+   
 .estudantes_felizes{width: 50vw;}
-
+.opcoes{
+    flex-direction: column;
+    height: auto;
+}
 #carrossel{
-    width: 95vw;
+    width: 90%;
 }
 
 #carrossel .navegacao label{
