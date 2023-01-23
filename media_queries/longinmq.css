@@ -9,13 +9,15 @@ Grandes Telas: acima de 1200px
 
 
 @media only screen and (max-width: 950px){
+    body{box-sizing: border-box;}
     .card-login{
-        width: 85%;
+        width: 80%;
+        height: 60vh;
     }
     #menu{margin-right: 30px;}
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
     .main-login{
         flex-direction: column;
         height: 150vh;

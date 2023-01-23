@@ -49,12 +49,12 @@ margin: 5px;
 
 header #icones {
 display: flex;
-justify-content: center;
-flex-direction:column;
+justify-content: flex-end;
 
-align-items: center;
 
-width: 60%;
+align-items: flex-end;
+
+width: 100%;
 font-size: 1.3em;
 
 
@@ -106,7 +106,7 @@ header  #icones li{
         justify-content: center;
         
         width: 60%;
-        
+       
         
         background:none;
         
@@ -130,10 +130,11 @@ header  #icones li{
         padding: 1rem 0px;
         margin: 0px 1rem;
         border-bottom: 2px solid rgba(28, 218, 107, 0.1);
-        width: 100vw;
+        width: 80vw;
         display: flex;
         align-items: center;
         justify-content: center;
+        
     }
     .light #menu a{border-bottom: 2px solid rgba(151, 61, 61, 0.1)}
      #btn-mobile{
@@ -222,12 +223,15 @@ header  #icones li{
 }
 
 @media (max-width:650px){
+    #menu a{
+        width: 60vw;
+    }
     #btn-mobile{
         padding: .5rem 46vw;
     }
 }
 
-a{
+a{ 
     text-decoration: none;
     color: #00ff88;
     cursor: pointer;
@@ -254,6 +258,7 @@ a{
     background-color: #00ff88;
    text-align: center;
     transition: all 1s ease;
+   
     
 }
 .efeito_de_carregamento:hover::before{
