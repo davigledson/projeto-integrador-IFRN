@@ -145,10 +145,13 @@ h1{
     padding: 20px;
     
 }
-.textfield a{cursor: pointer;}
+.textfield h3 a{
+    cursor: pointer;
+    color: currentColor;
+    color: white;}
 
 .textfield a:hover{
-    color: white;
+    color: rgb(0, 162, 255);
 }
 
  
