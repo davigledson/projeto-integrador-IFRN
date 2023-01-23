@@ -42,7 +42,7 @@ h1{
     color: black;
     
 }
-.light h1,h3{
+.light h1,.light h3{
     color: white;
     text-shadow: rgba(0, 0, 0, 0.527) 5px 2px 5px;
 }
@@ -145,7 +145,7 @@ h1{
     padding: 20px;
     
 }
-.textfield h3 a{
+.light .textfield h3 a{
     cursor: pointer;
     color: currentColor;
     color: white;}
