@@ -24,10 +24,14 @@ h1{
     font-size: 40px;
     text-align: center;
     margin: 30px;
+    color: #77FFC0;
     
     
  
    
+}
+h3{
+    text-align: center;
 }
 /*Modo claro e modo escuro*/
 
