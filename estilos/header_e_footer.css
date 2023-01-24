@@ -224,7 +224,7 @@ header  #icones li{
 }
 @media screen and (min-width:650px) and (max-width:950px){
     #nav.active #menu{
-    height: calc(110vw - 300px);
+    height: 100vh;
     
 }
 
