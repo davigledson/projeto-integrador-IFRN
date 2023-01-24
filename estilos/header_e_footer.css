@@ -47,7 +47,7 @@ margin: 5px;
 }
 
 
-header #icones {
+header #icones  {
 display: flex;
 justify-content: flex-end;
 
@@ -225,6 +225,7 @@ header  #icones li{
 @media screen and (min-width:650px) and (max-width:950px){
     #nav.active #menu{
     height: 100vh;
+    width: auto;
     
 }
 
