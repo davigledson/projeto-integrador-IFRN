@@ -88,7 +88,7 @@ h3{
     justify-content: center;
     flex-direction: row-reverse;
     background: #201b2c;
-    height: 70vh;
+    height: 90vh;
     width: 97vw;
      margin: auto;
     
@@ -99,6 +99,7 @@ h3{
  }
  .opcoes{
     margin-bottom: 20px;
+    box-sizing: border-box;
  }
  .left_part{
     display: flex;
