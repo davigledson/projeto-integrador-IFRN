@@ -225,7 +225,7 @@ header  #icones li{
 @media only screen and (min-width:650px) and (max-width:950px){
     #nav.active #menu{
     height: 130vh;
-    width: auto;
+    width: 60%;
     
 }
 
