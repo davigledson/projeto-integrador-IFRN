@@ -25,13 +25,13 @@ body{
 .light .bloco{
     color: black;
      background-color:aliceblue;
-     border: solid 3px #50a5f0;
+     border: solid 3px aqua;
     }
 .light .bloco  img{
     border:solid 5px #005BAA;
 }
 .light .coor{
-    border: solid 3px rgb(159, 235, 9);
+    border: solid 3px rgb(39, 214, 16);
 }
 h1{text-align: center;}
 
@@ -72,20 +72,58 @@ h1{text-align: center;}
 .coor{
     border: solid 3px rgb(62, 62, 241);
 }
+.orien{
+    border: solid 3px aqua;
+}
+.light .orien{
+    border: solid 3px rgb(62, 62, 241);
+}
 
 .bloco  img{
     border-radius: 50%;
     border:solid 5px black;
     height: 150px;
     width: 150px;
-   
-   
-    
+ 
 }
 p{
     justify-content: center;
     margin: 10px;
     font-size: 1.3em;
+}
+.bolinhas{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.bolinha{
+    width: 20px;
+    height: 20px;
+   
+    border-radius: 50%;
+
+}
+.balls{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+.light .baluno{background-color: aqua;}
+.light .bprof{ background-color:rgb(39, 214, 16) ;}
+.light .borien{background-color:  rgb(62, 62, 241);}
+
+.baluno{
+background-color: #00ff88;
+}
+
+.borien{
+    background-color: aqua;
+}
+.bprof{
+    background-color: rgb(62, 62, 241);
 }
 .linha{
     height: 80vh;

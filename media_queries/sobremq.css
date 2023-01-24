@@ -20,3 +20,11 @@ Grandes Telas: acima de 1200px
     width: 250px;
 }
 }
+@media only screen and (max-width: 700px){
+    .balls{
+        flex-direction: column;
+    }
+    .bloco{
+        width: 80%;
+    }
+}
