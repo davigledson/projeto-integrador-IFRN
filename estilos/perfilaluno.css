@@ -69,14 +69,14 @@ hr{margin: 10px;
 }
 
 .vazia{
-    border: 2px solid #5bff15;
+    border: none;
     border-radius: 5px;
-    background-color: black;
+    background-image: linear-gradient(to right,rgba(130, 241, 39, 0.521),rgba(12, 124, 236, 0.493));
     color: white;
     width: 50%;
-    padding: 10px;
+  
     margin: 10px;
-    padding: 20px
+    padding: 15px
 }
 p{
     margin: 10px;
