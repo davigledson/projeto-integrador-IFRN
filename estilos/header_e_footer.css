@@ -313,3 +313,22 @@ input[type="checkbox"]{
 .light .bi-moon{
     display: none;
 }
+body::-webkit-scrollbar{
+    width: 10px;
+   
+    
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #00ff88;
+    border-radius: 5px;
+    
+}
+.light::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.11);        /* color of the tracking area */
+  }
+.light::-webkit-scrollbar{
+    width: 10px;
+}
+.light::-webkit-scrollbar-thumb{
+    background-color: #00a2ff;
+}
