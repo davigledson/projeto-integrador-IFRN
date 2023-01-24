@@ -62,6 +62,7 @@ h3{
 }
 #carrossel{
     width: 90%;
+    height: 60vh;
 }
 
 #carrossel .navegacao label{

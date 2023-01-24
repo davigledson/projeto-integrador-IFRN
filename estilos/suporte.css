@@ -107,9 +107,11 @@ box-shadow: blue;
 @media only screen and (max-width: 1200px){
     .left-login{
         width: 80%;
+         height: auto;
+         margin-top: auto;
     }
    .notas{
-    
+    margin-top: auto;
     flex-wrap: wrap;
     
     align-items: center;
@@ -121,15 +123,21 @@ box-shadow: blue;
     width: 40%;
     font-size: 1em;
    }
+   .card-login{
+    height: auto;
+}
    
    
 }
 @media only screen and (max-width: 650px){
     .left-login{
         width: 100%;
+        height: auto;
+        margin-top: auto;
     }
     .notas{
-     
+        margin-top: auto;
+     height: auto;
      flex-wrap: wrap;
      align-items: center;
      justify-content: center;
@@ -140,6 +148,9 @@ box-shadow: blue;
      width: 100%;
      font-size: 1em;
     }
-    
+    .card-login{
+        height: auto;
+        margin-top: auto;
+    }
     
  }

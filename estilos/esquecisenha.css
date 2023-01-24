@@ -32,10 +32,17 @@ footer{
 @media only screen and (max-width: 950px){
     .right-login{
         width: 80%;
+        
+    }
+    .card-login{
+        height: auto;
     }
 }
 @media only screen and (max-width: 650px){
     .right-login{
         width: 90%;
+    }
+    .card-login{
+        height: auto;
     }
 }
