@@ -96,6 +96,7 @@ header  #icones li{
     #icones{
       
         width: 100%;
+        justify-content: center;
     }
    
     #menu{
@@ -221,7 +222,14 @@ header  #icones li{
 
 
 }
+@media screen and (min-width:650px) and (max-width:950px){
+    #nav.active #menu{
+    height: calc(110vw - 300px);
+    
+}
 
+
+}
 @media (max-width:650px){
     #menu a{
         width: 60vw;
