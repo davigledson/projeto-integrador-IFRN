@@ -50,8 +50,6 @@ margin: 5px;
 header #icones  {
 display: flex;
 justify-content: flex-end;
-
-
 align-items: flex-end;
 
 width: 100%;
@@ -92,6 +90,10 @@ header  #icones li{
     /*
     MENU
     */
+    header #icones  {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;}
     ul{margin: 0px;}
     #icones{
       
@@ -222,15 +224,9 @@ header  #icones li{
 
 
 }
-@media only screen and (min-width:650px) and (max-width:950px){
-    #nav.active #menu{
-    height: 130vh;
-    width: 60%;
-    
-}
 
 
-}
+
 @media (max-width:650px){
     #menu a{
         width: 60vw;
