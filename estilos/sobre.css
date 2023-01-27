@@ -33,6 +33,11 @@ body{
 .light .coor{
     border: solid 3px rgb(39, 214, 16);
 }
+.light::-webkit-scrollbar-track {
+    background:#68E6D1;
+           
+  }
+
 h1{text-align: center;}
 
 

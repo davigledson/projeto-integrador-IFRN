@@ -37,6 +37,13 @@ header{
 .light hr{
     border: solid 1px dodgerblue;
 }
+.light::-webkit-scrollbar-track {
+    background: #12384A;      
+  }
+
+body::-webkit-scrollbar-track{
+    background:#1160D8;
+  }
 body{
     font-family: Arial, Helvetica, sans-serif;
     

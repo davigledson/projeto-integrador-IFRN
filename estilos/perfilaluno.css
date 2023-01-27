@@ -27,6 +27,9 @@ body{
     background: local;
     border: none;
 }
+.light::-webkit-scrollbar-track {
+    background: #3783E7;      
+  }
 header{
     background-color: black;
 }

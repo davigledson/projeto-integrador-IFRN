@@ -323,9 +323,7 @@ body::-webkit-scrollbar-thumb{
     border-radius: 5px;
     
 }
-.light::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.11);        /* color of the tracking area */
-  }
+
 .light::-webkit-scrollbar{
     width: 10px;
 }

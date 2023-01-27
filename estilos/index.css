@@ -72,6 +72,9 @@ h3{
 .light header a{
     color: white;
 }
+.light::-webkit-scrollbar-track {
+    background: #EEF7FF;      
+  }
 /*Modo claro e modo escuro*/
 
 /*
