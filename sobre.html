@@ -72,6 +72,9 @@
 
     <main>
         <h1>Sobre</h1>
+        <div class="inicio"> 
+            <p>O IFShow é uma  plataforma de agendamento de trabalhos, apresentações e TCC destinada a alunos e professores do IFRN - Campus Mossoró. Inicialmente o site é um protótipo do projeto integrador e projeto de iniciação à pesquisa em desenvolvimento por três alunos da turma subsequente de informática.</p>
+        </div>
         <section id="componentes">
             <div class="bloco">
                 <a target="_blank" href="https://github.com/davigledson"><img src="imagens/davi.jpg" alt="davi"></a>
@@ -166,14 +169,15 @@
     
 </body>
 </html>
-<script src="Javascript/javascript_principal.js"></script>
+<script src="Javascript/script.js"></script>
 <script src="Javascript/efeito_Vanilla_TIlt.js"></script>
 <script>
-    VanillaTilt.init(document.querySelectorAll(".bloco"),{
+    VanillaTilt.init(document.querySelectorAll(".bloco "),{
         max:30,
         speed: 400,
         glare:true,
         "max-glare":1,
     }
     )
+
 </script>
