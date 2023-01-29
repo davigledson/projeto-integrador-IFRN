@@ -60,7 +60,7 @@ body{
     background: #2f2841;
     margin: auto;
     width: 90%;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
     font-weight: 600;
     font-size: 1.3em;
@@ -70,6 +70,7 @@ h1{color: #77FFC0;}
 .titulo{
 text-align: center;
 margin-top: 50px;
+
 
 }
 
@@ -94,6 +95,7 @@ box-shadow: blue;
 }
 .light h1{
     color: rgb(0, 140, 255);
+   
 }
 .light .left-login .day{display: none;}
 .light .left-login .night{display: block;}
@@ -104,7 +106,7 @@ box-shadow: blue;
     margin: 20px;
 }
 
-@media only screen and (max-width: 1200px){
+@media (max-width: 1200px){
     .left-login{
         width: 80%;
          height: auto;
