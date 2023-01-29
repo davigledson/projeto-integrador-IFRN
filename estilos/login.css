@@ -65,6 +65,7 @@ MODO CLARO E ESCURO
 .light #moca_do_escritorio-night{
     display: none;
 }
+
 .light::-webkit-scrollbar-track {
     background:#3683E7;
           

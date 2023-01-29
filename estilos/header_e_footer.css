@@ -324,9 +324,7 @@ body::-webkit-scrollbar-thumb{
     
 }
 
-.light::-webkit-scrollbar{
-    width: 10px;
-}
+
 .light::-webkit-scrollbar-thumb{
     background-color: #00a2ff;
 }

@@ -3,16 +3,17 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 
 
 
 body{
     box-sizing: border-box;
-    background-color: #362d49;
+    background-color: black;
     color: #00ff88;
     font-family: "Noto Sans", sans-serif;
-    transition: 0.3s;
+   transition: all 0.4s ease-in-out;
 }
 
 /*
@@ -32,6 +33,7 @@ h1{
 }
 h3{
     text-align: center;
+    
 
 }
 /*Modo claro e modo escuro*/
@@ -73,6 +75,9 @@ h3{
 .light header a{
     color: white;
 }
+.light .right_part a:hover{
+    color: #0f73e6;
+}
 .light::-webkit-scrollbar-track {
     background: #EEF7FF;      
   }
@@ -91,7 +96,7 @@ h3{
     align-items: center;
     justify-content: center;
     flex-direction: row-reverse;
-    background: #201b2c;
+    background-color: #362d49;
     height: 90vh;
     width: 97vw;
      margin: auto;
