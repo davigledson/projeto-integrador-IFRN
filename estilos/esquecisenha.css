@@ -1,3 +1,4 @@
+
 .right-login{
     width: 60%;
     height: 100vh;
@@ -11,7 +12,7 @@
 }
 .card-login{
     margin-top: 70px;
-
+    height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -31,7 +32,7 @@ footer{
 
 @media only screen and (max-width: 950px){
     .right-login{
-        width: 80%;
+        width: 100%;
         
     }
     .card-login{
@@ -40,7 +41,7 @@ footer{
 }
 @media only screen and (max-width: 650px){
     .right-login{
-        width: 90%;
+        width: 100%;
     }
     .card-login{
         height: auto;

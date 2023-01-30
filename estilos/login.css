@@ -1,7 +1,11 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
-body{
+*{
     margin: 0;
+    padding: 0;
+}
+body{
+    
     font-family: "Noto Sans", sans-serif;
     background-color: #201b2c;
     color: #00ff88;
@@ -108,7 +112,7 @@ MODO CLARO E ESCURO
 }
 
 .card-login{
-    
+    height: 70vh;
     width: 60%;
     display: flex;
     justify-content: center;
