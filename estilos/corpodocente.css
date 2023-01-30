@@ -30,15 +30,13 @@ body{
 .light .bloco  img{
     border:solid 5px #005BAA;
 }
-.light .coor{
-    border: solid 3px rgb(39, 214, 16);
-}
+
 .light::-webkit-scrollbar-track {
     background:#68E6D1;
            
   }
 
-h1{text-align: center;margin: 50px;}
+h1{text-align: center; margin: 50px;}
 
 .inicio{
     width: 80%;
@@ -78,15 +76,7 @@ h1{text-align: center;margin: 50px;}
     
 }
 
-.coor{
-    border: solid 3px rgb(62, 62, 241);
-}
-.orien{
-    border: solid 3px aqua;
-}
-.light .orien{
-    border: solid 3px rgb(62, 62, 241);
-}
+
 
 .bloco  img{
     border-radius: 50%;
@@ -104,6 +94,8 @@ p{
     margin: 15px;
     font-size: 1.1em;
 }
-footer{
+footer p{
     text-align: center;
+    margin: auto;
+    
 }
