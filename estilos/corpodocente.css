@@ -103,3 +103,22 @@ footer p{
     margin: auto;
     
 }
+
+@media only screen and (max-width: 950px){
+    .bloco{
+        height: 600px;
+        width: 300px;
+    }
+    .illustration{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 650px){
+    .bloco{
+        height: 600px;
+        width: 80%;
+    }
+    .illustration{
+        width: 90%;
+    }
+}
