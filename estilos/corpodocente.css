@@ -37,7 +37,11 @@ body{
   }
 
 h1{text-align: center; margin: 50px;}
-
+.illustration{
+    
+    margin: auto;
+    width: 50vw;
+}
 .inicio{
     width: 80%;
     text-align: justify;
