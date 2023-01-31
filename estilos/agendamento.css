@@ -49,6 +49,7 @@ body{
     
     background-image: linear-gradient(to right,#48425c,#1161da);
     color: white;
+    
      
 }
 
@@ -60,6 +61,7 @@ body{
     border-radius: 15px;
     width: 80%;
     color: white; 
+   
     
 }
 
@@ -112,6 +114,10 @@ input[type="radio"]{
 .boxtextarea{
     text-align: center;
     
+}
+.boxtextarea textarea::placeholder{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.637);
 }
 .inputbox{
     position: relative;
