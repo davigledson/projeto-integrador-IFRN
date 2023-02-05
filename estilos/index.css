@@ -240,6 +240,7 @@ h3{
     background-image: url('../imagens/apresentacao3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 100%;
     width: 100%;
 }
@@ -247,7 +248,7 @@ h3{
     background-image: url('../imagens/apresentacao4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
+    background-position: center;
     height: 100%;
     width: 100%;
 }
