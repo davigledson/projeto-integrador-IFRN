@@ -231,7 +231,7 @@ h3{
     background-image: url('../imagens/apresentacao2.jpg');
     /*Toma cuidado com os caminhos das imagem o live server pode enganar*/
     background-size: cover;
-   
+    background-position: center;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
