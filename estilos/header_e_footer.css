@@ -15,7 +15,7 @@ header{
 
 header #logo{
     margin-left: 10px;
-    width: 50%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -27,6 +27,7 @@ header #logo img{
 height: 120px;
 background-size: cover;
 margin: 5px;
+width: 100%;
 }
 .efeito_de_zoom{
     
@@ -64,21 +65,20 @@ align-items: flex-end;
 justify-content: end;
 }
 header ul{
-   
+    
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
     
     
 }
 header  #icones li{
     
    display: flex;
-   flex-direction: row;
-   align-items: center;
-    justify-content: center;
+  
   
 }
 
@@ -90,6 +90,12 @@ header  #icones li{
     /*
     MENU
     */
+    header #logo{
+        
+        width: 70%;
+        
+        
+    }
     header #icones  {
         display: flex;
         justify-content: center;
@@ -249,7 +255,7 @@ a{
    padding-left: 5px;
   position: relative;
   box-sizing: border-box;
-  margin: 0px 30px 0px 0px;
+  margin: 0px 22px 0px 0px;
   transition: all 400ms ease;
 }
 
